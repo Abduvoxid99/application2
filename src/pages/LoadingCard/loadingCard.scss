@@ -1,0 +1,34 @@
+@import "src/css/variables";
+
+
+.loading_body{
+  background: $lightGrey;
+  width: 100%;
+  height: 100vh;
+  padding: 28px 16px;
+  position: relative;
+  .load_img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    .loading_title {
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .load_image {
+      text-align: center;
+    }
+
+    .message_onboarding {
+      font-size: 12px;
+      line-height: 16px;
+      opacity: 0.5
+    }
+  }
+}

@@ -1,0 +1,7 @@
+PROJECT_NAME=debit-card
+APP=debit_front_main
+SERVICE_NAME=debit_front_main
+REGISTRY=gitlab.hamkorbank.uz:5050
+CURRENT=$(pwd)
+K8S_NAMESPACE=microservice
+DEPLOYMENT=debit-front-main
